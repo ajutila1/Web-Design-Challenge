@@ -1,0 +1,122 @@
+<!-- CO Levels and Covid Cases in Charlotte Page-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>CO Levels Vs Covid Cases in Charlotte</title>
+
+      <!-- CSS links -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      
+  </head>
+
+  <body>
+
+    <!-- NAV Bar -->
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="Index.html">Covid & CO Levels in the US</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Cities
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="Boston.html">Boston</a>
+                          <a class="dropdown-item" href="Charlotte.html">Charlotte</a>
+                          <a class="dropdown-item" href="Omaha.html">Omaha</a>
+                          <a class="dropdown-item" href="Chicago.html">Chicago</a>
+                          <a class="dropdown-item" href="Seattle.html">Seattle</a>
+                          <a class="dropdown-item" href="LosAngeles.html">Los Angeles</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Comparison.html">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Data.html">Data</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+
+        <!-- Current Graph Summary Box -->
+        <div class="col-lg-7 col-md-12">
+          <div class="box">
+            <h1 class="title">Charlotte</h1>
+            <hr>
+            <img class="panel" src="Resources/Images/figCHARscat2.png" alt="CO Levels vs Covid Cases in Charlotte Graph">
+            <img class="panel" src="Resources/Images/figCHARhist2.png" alt="2019 vs 2020 CO levels Charlotte Graph">
+            <p>For Charlotte, there is a significant difference in CO levels between 2019 and 2020. However, there appears to be no correlation between 2020 CO levels and Covid cases in the encompassing county.</p>
+          </div>
+        </div>
+
+        <!-- Visualizations Box -->
+        <div class="col-lg-5 col-md-12">
+          <div class="box">
+            <h2 class="title">Visualizations</h2>
+            <hr>
+            <div class="container">
+              <div class="row"  style="padding-bottom: 10px;">
+                  <div class="col-6">
+                      <a href="Boston.html">
+                          <img class="panel" src="Resources/Images/figBOSscat2.png" alt="CO Levels vs Covid Cases in Boston">
+                      </a>
+                  </div>
+                  <div class="col-6">
+                      <a href="Charlotte.html">
+                          <img class="panel" src="Resources/Images/figCHARscat2.png" alt="CO Levels vs Covid Cases in Charlotte">
+                      </a>
+                  </div>
+                  <div class="col-6">
+                      <a href="Omaha.html">
+                          <img class="panel" src="Resources/Images/figOMAscat2.png" alt="CO Levels vs Covid Cases in Omaha">
+                      </a>
+                  </div>
+                  <div class="col-6">
+                      <a href="Chicago.html">
+                          <img class="panel" src="Resources/Images/figCHIscat2.png" alt="CO Levels vs Covid Cases in Chicago">
+                      </a>
+                  </div>
+                  <div class="col-6">
+                      <a href="Seattle.html">
+                          <img class="panel" src="Resources/Images/figSEAscat2.png" alt="CO Levels vs Covid Cases in Seattle">
+                      </a>
+                  </div>
+                  <div class="col-6">
+                      <a href="LosAngeles.html">
+                          <img class="panel" src="Resources/Images/figLAscat2.png" alt="CO Levels vs Covid Cases in Los Angeles">
+                      </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+      crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
