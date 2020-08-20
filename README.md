@@ -1,4 +1,4 @@
-Website can be found [here](ajutila1.github.io).
+Website can be found [here](https://ajutila1.github.io/).
 
 Two notes:
 1) I converted pandas dataframes within the original project jupyter notebook, but included the six html files in the resources.
